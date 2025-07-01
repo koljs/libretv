@@ -124,45 +124,45 @@ const API_SITES = {
     // 而作为观众无辜吗？毫无疑问，他们促成了黄色产业链的再生产。
     // 我们提供此警告，是希望您能认清这些内容的本质——它们是压迫和奴役的工具，而非娱乐。
     ckzy: {
-         api: 'https://www.ckzy1.com',
+         api: 'https://ckzy.me/api.php/provide/vod',
          name: 'CK资源',
-         adult: false
+         adult: true
      },
      jkun: {
-         api: 'https://jkunzyapi.com',
+         api: 'https://jkunzyapi.com/api.php/provide/vod',
          name: 'jkun资源',
-         adult: false
+         adult: true
      },
      bwzy: {
-         api: 'https://api.bwzym3u8.com',
+         api: 'https://api.bwzyz.com/api.php/provide/vod',
          name: '百万资源',
-         adult: false
+         adult: true
      },
      souav: {
-         api: 'https://api.souavzy.vip',
+         api: 'https://api.souavzy.vip/api.php/provide/vod',
          name: 'souav资源',
-         adult: false
+         adult: true
      },
-     r155: {
-         api: 'https://155api.com',
-         name: '155资源',
-         adult: false
-     },
-     lsb: {
-         api: 'https://apilsbzy1.com',
-         name: 'lsb资源',
-         adult: false
-     },
-     huangcang: {
-         api: 'https://hsckzy.vip',
-         name: '黄色仓库',
-         adult: false,
-         detail: 'https://hsckzy.vip'
-     },
+     //r155: {
+    //     api: 'https://155api.com',
+    //     name: '155资源',
+    //     adult: true
+    // },
+     //lsb: {
+     //    api: 'https://apilsbzy1.com',
+     //    name: 'lsb资源',
+     //    adult: true
+    // },
+    // huangcang: {
+     //    api: 'https://hsckzy.vip',
+     //    name: '黄色仓库',
+     //    adult: true,
+     //    detail: 'https://hsckzy.vip'
+    // },
      yutu: {
-         api: 'https://yutuzy10.com',
+         api: 'https://apiyutu.com/api.php/provide/vod',
          name: '玉兔资源',
-         adult: false
+         adult: true
      },
 
     // 下面是资源失效率高的API源，不建议使用
@@ -182,7 +182,7 @@ const API_SITES = {
 
 // 添加聚合搜索的配置选项
 const AGGREGATED_SEARCH_CONFIG = {
-    enabled: true,             // 是否启用聚合搜索
+    enabled: false,             // 是否启用聚合搜索
     timeout: 8000,            // 单个源超时时间（毫秒）
     maxResults: 10000,          // 最大结果数量
     parallelRequests: true,   // 是否并行请求所有源
